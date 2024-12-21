@@ -1,0 +1,24 @@
+# Константы
+Max_value: 100
+Min_value: 0
+Threshold: 50
+
+# Словарь с настройками
+Settings:
+  Resolution: '1920x1080'
+  Fullscreen: true
+  Volume: 75
+
+# Вложенный словарь
+User:
+  Name: 'Иван'
+  Age: 25
+  Sport: {football, basketball, swimming}
+
+
+# Пример выражений для вычисления
+Expressions:
+  Sum: 'Max_value + Threshold'
+  Sub: 'Max_value - Min_value'
+  Sqrt: 'sqrt(16)'
+  Max: 'max(10, 20)'
